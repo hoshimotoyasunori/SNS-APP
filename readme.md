@@ -80,6 +80,8 @@ pip install django-cors-headers
 pip install Pillow
 ```
 
+Django プロジェクト作成
+
 ```bash
 django-admin startproject api_sns .
 django-admin startapp api
