@@ -1,4 +1,4 @@
-# SNS　clone App
+# SNS - Clone App
 
 ## 機能
 
