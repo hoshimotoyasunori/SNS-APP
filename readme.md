@@ -1,17 +1,5 @@
 # SNS　clone App
 
-## Backend
-
-DjangoRestFramework & JWT 認証
-
-## Frontend
-
-```bash
-React Hooks & Redux Toolkit
-Typescript & Material UI
-Formik + Yup
-```
-
 ## 機能
 
 ```bash
@@ -71,4 +59,42 @@ api/comment/       [GET/POST]  コメントの取得と投稿
 api/post/          [GET/POST/PUT/PATCH]  投稿の取得、作成、更新、一部更新
 api/profile/       [GET/POST/PUT]  Profileの取得、作成、更新
 authen/jwt/create/ [POST]  JWTトークン取得
+```
+
+## Backend
+
+DjangoRestFramework & JWT 認証
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+```bash
+pip install django==3.0.7
+pip install djangorestframework==3.10
+pip install djangorestframework-simplejwt==4.6.0
+pip install PyJWT==2.0.0
+pip install djoser
+pip install django-cors-headers
+pip install Pillow
+```
+
+```bash
+django-admin startproject api_sns .
+django-admin startapp api
+```
+
+起動確認
+
+```bash
+python manage.py runserver
+```
+
+## Frontend
+
+```bash
+React Hooks & Redux Toolkit
+Typescript & Material UI
+Formik + Yup
 ```
