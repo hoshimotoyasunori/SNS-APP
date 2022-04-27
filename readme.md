@@ -100,3 +100,24 @@ React Hooks & Redux Toolkit
 Typescript & Material UI
 Formik + Yup
 ```
+
+redux-toolkit & typescript プロジェクト作成
+
+```bash
+npx create-react-app . --template redux-typescript --use-npm
+```
+
+起動確認
+
+```bash
+npm start
+```
+
+追加でinstall
+
+```bash
+npm i @material-ui/core --legacy-peer-deps
+npm i @material-ui/icons --legacy-peer-deps
+npm i @material-ui/lab --legacy-peer-deps
+npm i react-modal --legacy-peer-deps
+```
